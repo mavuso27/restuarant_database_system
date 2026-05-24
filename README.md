@@ -1,14 +1,16 @@
-# Restaurant Information System
+# 🍽️ Restaurant Information System
 
 A complete relational database system for managing a multi-cuisine restaurant, built with PostgreSQL 18.
 
-## Project Overview
+---
+
+## 📋 Project Overview
 
 This database was designed and implemented as part of the **Database Management Systems I (ITEC343)** course at **Cyprus International University**. It simulates a real-world restaurant environment with full data management capabilities including meals, orders, payments, reservations and customer ratings.
 
 ---
 
-## Database Structure
+## 🗄️ Database Structure
 
 The system contains **14 tables:**
 
@@ -31,7 +33,7 @@ The system contains **14 tables:**
 
 ---
 
-## Relational Model
+## 🔗 Relational Model
 
 ```
 category (category_id PK, name)
@@ -63,20 +65,21 @@ reservation (reservation_id PK, date, time, status,
              customer_id FK → customer, table_id FK → tables)
 
 rate (rate_id PK, rating, comment, customer_id FK → customer, meal_id FK → meal)
+```
 
 ---
 
-## Cuisines Available
+## 🌍 Cuisines Available
 
--Chinese
--Italian
--Mexican
--Turkish
--Zimbabwean (Ndebele dishes)
+- 🇨🇳 Chinese
+- 🇮🇹 Italian
+- 🇲🇽 Mexican
+- 🇹🇷 Turkish
+- 🇿🇼 Zimbabwean (Ndebele dishes)
 
 ---
 
-## Database Stats
+## 📊 Database Stats
 
 - 14 tables
 - 40 meals across 5 cuisines
@@ -88,25 +91,26 @@ rate (rate_id PK, rating, comment, customer_id FK → customer, meal_id FK → m
 
 ---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - PostgreSQL 18
 - pgAdmin 4
 
 ---
 
-##  Repository Structure
+## 📁 Repository Structure
 
+```
 restaurant-database-system/
-|--restaurant_db.sql       # Complete database script (DDL + DML)
-|-- queries.sql             # 15 management queries
-|-- ER_diagram.png          # Entity Relationship Diagram
-|-- README.md               # Project documentation
+├── restaurant_db.sql       # Complete database script (DDL + DML)
+├── queries.sql             # 15 management queries
+├── ER_diagram.png          # Entity Relationship Diagram
+└── README.md               # Project documentation
 ```
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 1. Install PostgreSQL 18 from [postgresql.org](https://www.postgresql.org/download)
 2. Open pgAdmin 4
@@ -117,10 +121,10 @@ restaurant-database-system/
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-**Ashley Ntabiso Mondela**
+**Ashley Mondela**
 - 2nd Year Information Technologies Student
-- Cyprus International University, Cyprus
+- Cyprus International University
 - ISC2 Certified in Cybersecurity (CC)
-- [LinkedIn]https://www.linkedin.com/in/ashley-mondela-b2a5a4218/
+- [LinkedIn](https://www.linkedin.com/in/ashley-mondela-b2a5a4218/)
