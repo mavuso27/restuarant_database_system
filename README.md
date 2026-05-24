@@ -71,11 +71,11 @@ rate (rate_id PK, rating, comment, customer_id FK → customer, meal_id FK → m
 
 ## 🌍 Cuisines Available
 
-- 🇨🇳 Chinese
-- 🇮🇹 Italian
-- 🇲🇽 Mexican
-- 🇹🇷 Turkish
-- 🇿🇼 Zimbabwean (Ndebele dishes)
+- Chinese
+- Italian
+-  Mexican
+- Turkish
+- Zimbabwean (Ndebele dishes)
 
 ---
 
